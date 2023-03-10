@@ -27,7 +27,7 @@ var x = setInterval(function() {
   // Quando a contagem regressiva termina, exibe uma mensagem
   if (distance < 0) {
     clearInterval(x);
-    countdownOutput.innerHTML = "A contagem regressiva terminou!";
+    countdownOutput.innerHTML = "FERIASSSSSSSSSSSS!";
   }
 }, 1000);
 
