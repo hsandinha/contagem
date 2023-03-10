@@ -39,7 +39,7 @@ header {
     border-radius: 80px 80px 80px 80px;
     color: #fff;
     background-color: rgba(25, 0, 255, 0.8);
-    top: 30%;
+    top: 40%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -50,11 +50,11 @@ header {
 
 
 .login input {
-    width: 30%;
+    width: 40%;
     margin-bottom: 8px;
 
 }
-.login input[type="number"] {
+.login input[type="datetime-local"] {
 border: 10px;   
 border-bottom: 1px solid white;
 background: transparent;
