@@ -17,7 +17,7 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Exibe a contagem regressiva na página HTML
-  document.getElementById("countdown").innerHTML = days + "Dias - " + hours + "h " + minutes + ":"  + seconds ;
+  document.getElementById("countdown").innerHTML = days + "Dias - " + hours + "h " + minutes + "m "  + seconds + "s" ;
 
   // Quando a contagem regressiva termina, exibe uma mensagem
   if (distance < 0) {
