@@ -22,7 +22,7 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Exibe a contagem regressiva na página HTML
-  countdownOutput.innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+  countdownOutput.innerHTML = dias + "d " + horas + "h " + minutos + "m " + segundos + "s ";
 
   // Quando a contagem regressiva termina, exibe uma mensagem
   if (distance < 0) {
